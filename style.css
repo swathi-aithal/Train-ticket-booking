@@ -1,0 +1,471 @@
+#index
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#index .full-page
+{
+    height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/plan.jfif);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+#index .navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+#index nav
+{
+    flex: 1;
+    text-align: right;
+}
+#index nav ul 
+{
+    display: inline-block;
+    list-style: none;
+}
+#index nav ul li
+{
+    display: inline-block;
+    margin-right: 70px;
+}
+#index nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+#index nav ul li button
+{
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+#index nav ul li button:hover
+{
+    color: aqua;
+}
+#index nav ul li a:hover
+{
+    color: aqua;
+}
+/* .navbar{
+	width: 85%;
+	height: 15%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content:flex-end;
+}
+button{
+	color: #fbfcfd;
+	padding: 10px 25px;
+	background: transparent;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	outline: none;
+	cursor: pointer; */
+a
+{
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 28px;
+}
+#index #login-form
+{
+    display: none;
+}
+
+#index .form-box
+{
+    width:380px;
+	min-height: 115px;
+	height:480px;
+	position:relative;
+	margin-left: 900px;
+	background:rgba(0,0,0,0.3);
+	padding:25px 50px;
+    overflow: hidden;
+	border-left: 5px solid
+}
+#index .button-box
+{
+	width:220px;
+	margin:35px auto;
+	position:relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+#index .toggle-btn
+{
+	padding:10px 30px;
+	cursor:pointer;
+	background:transparent;
+	border:0;
+	outline: none;
+	position: relative;
+}
+#index #btn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: #F3C693;
+	border-radius: 30px;
+	transition: .5s;
+}
+#index .input-group-login
+{
+	top: 150px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+#index .input-group-register
+{
+	margin:auto;
+    top: 94px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+#index .input-field
+{
+	width: 100%;
+	padding:10px 0;
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid #999;
+	outline:none;
+	background: transparent;
+}
+#index .submit-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: #F3C693;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+#index .check-box
+{
+	margin: 30px 10px 34px 0;
+}
+#index .full-page span
+{
+	color:#777;
+	font-size:12px;
+	bottom:68px;
+	position:absolute;
+}
+
+#index #login
+{
+	left:50px;
+}
+#index #login input
+{
+	color:white;
+	font-size:15;
+}
+#index #register
+{
+	left:450px;
+}
+#index #register input
+{
+	color:white;
+	font-size: 15;
+}
+#index .p1{
+	color: white;
+}
+#index .images{
+	padding-left: 10px;
+	padding-top:;
+	height: 160px;
+	width: 90px;
+
+}
+#index .content{
+	color: #f3ddf1;
+	position: absolute;
+	top: 50%;
+	left: 5%;
+	transform: translateY(-50%);
+	z-index: 2;
+	
+}
+#index .h11{
+	font-size: 80px;
+	margin: 8px 0 30px;
+	line-height: 80px;
+	
+	
+}
+
+ html{
+	font-size: 10px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#hero{
+	background-image: url(images/train2.jpeg);
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+
+	
+}
+#hero::after{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: .7;
+	z-index: -1;
+
+}
+#hero .hero{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 50px;
+	justify-content: flex-start;
+}
+#hero h1{
+	display:block;
+	width: fit-content;
+	font-size: 4rem;
+	position: relative;
+	color: transparent;
+	animation: text_reveal .5s ease forwards;
+	animation-delay: 1.5s;
+}
+#hero h1:nth-child(1) {
+	animation-delay: 1.5s;
+}
+#hero h1:nth-child(2) {
+	animation-delay: 2.5s;
+}
+
+#hero h1 span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 0;
+	background-color: crimson;
+	animation: text_reveal_box 1s ease;
+	animation-delay: 1s;
+}
+#hero h1:nth-child(1) span{
+	animation-delay: 1s;
+}
+#hero h1:nth-child(2) span{
+	animation-delay: 2s;
+}
+#hero .cta{
+	display: inline-block;
+	padding: 10px 30px;
+	color: crimson;
+	background-color: transparent;
+	border: 2px solid crimson;
+	font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	margin-top: 20px;
+	transition: .3s ease;
+	transition-property: background-color,color;
+}
+#hero .cta:hover{
+	color: white;
+	background-color: crimson;
+}
+@keyframes text_reveal_box{
+	50%{
+		width: 100%;
+		left: 0;
+
+	}
+	100%{
+		width: 0;
+		left: 100%;
+	}
+}
+@keyframes text_reveal{
+	100%{
+		color: white;
+	}
+}
+/* .load{
+	animation: slide 2s;
+}
+.slider{
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	animation: slide 20s infinite;
+}
+.contenter{
+	color: #fff;
+	width: 100%;
+	height: 100%;
+}
+@keyframes slide{
+	0%{
+		background-image: url(images/train8.jpg);
+	}
+	20%{
+		background-image: url(images/train1.jpg);
+	}
+	20.01%{
+		background-image: url(images/train2.jpeg);
+	}
+	40%{
+		background-image: url(images/train3.jfif);
+	}
+	40.01%{
+		background-image: url(images/train4.jpg);
+	}
+	60%{
+		background-image: url(images/train5.jpg);
+	}
+	60.01%{
+		background-image: url(images/train9.jpg);
+	}
+	80%{
+		background-image: url(images/train6.jpg);
+	}
+	80.01%{
+		background-image: url(images/train7.jpg);
+	}
+	100%{
+		background-image: url(images/train10.jpg);
+	}
+
+} */
+/* .contente{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/train2.jpeg);
+	background-size: cover;
+	background-position: center; */
+	/* #heroine{
+		background-image: url(images/train2.jpeg);
+		background-size: cover;
+		background-position: top center;
+		position: relative;
+		margin:0;
+		padding: 0;
+	
+		
+	}
+	#heroine::before{
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		background-color: black;
+		opacity: .7;
+		z-index: -1; */
+		
+
+}
+ .booking-form-box{
+	max-width: 350px;
+	border: 1px solid #ced4da;
+	margin:0%;
+	
+}
+.booking-form-box .booking-form{
+	padding: 0 20px 20px;
+}
+.booking-form-box .booking-form label{
+	margin-bottom: 5px;
+	margin-top: 10px;
+	font-size: 12px;
+	color: whitesmoke;
+}
+.booking-form-box input::placeholder{
+	color: whitesmoke !important;
+
+}
+.booking-form-box .booking-form .input-grp{
+	width:151px;
+	display: inline;
+}
+.booking-form-box .booking-form .input-grp .form-control{
+	font-size: 12px;
+	border-radius: 0;
+	color: violet !important;
+	background: transparent !important;
+	box-shadow: none !important;
+}
+.select-date::-webkit-inner-spin-button,
+.select-date::-webkit-inner-spin-button
+{
+	-webkit-appearance: none;
+	margin: 0;
+}
+.select-date::-webkit-calender-picker-indicator
+{
+	background: transparent !important;
+
+}
+.booking-form-box .booking-form .input-grp .customer-select{
+	color: whitesmoke!important;
+	font-size: 12px!important;
+	border: 1px solid #ced4da!important;
+	box-shadow: none!important;
+	border-radius: 0!important;
+	background: transparent!important;
+}
+.booking-form-box .booking-form .input-grp .custom-select option{
+	color: #333;
+
+}
+.booking-form-box .booking-form .input-grp .train{
+	width: 100px;
+	padding: 9px 0;
+	font-size: 12px;
+	border: 1px solid#12518f !important;
+	background: transparent!important;
+	box-shadow: none!important;
+	border-radius: 0!important;
+}
+.booking-form-box .booking-form .input-grp .train:hover{
+	color: white;
+	background-color: crimson;
+}
+/* payment */
