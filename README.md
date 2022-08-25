@@ -19,7 +19,7 @@ This is a train ticket booking system. It is a web application that allows users
 - View train journey fares
 - View train journey reviews
 
-## ✨ [Live Demo](https://invell.000webhostapp.com/register.php)
+### ✨ [Live Demo](https://invell.000webhostapp.com/register.php)
 
 ## Screenshots
 
